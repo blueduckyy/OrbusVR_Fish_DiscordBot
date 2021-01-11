@@ -1,0 +1,32 @@
+{
+    "0": {
+        "Blimp": "None",
+        "Kylakin": "None",
+        "Frosted Perch": "Wastelands Tree, Free Fall, Rainforest Mini",
+        "Jelmiry": "None"
+    },
+    "1": {
+        "Blimp": "Nomads-Scav Camp, Scav Event",
+        "Kylakin": "None",
+        "Frosted Perch": "None",
+        "Jelmiry": "HS Bottom, Wagon Grave"
+    },
+    "2": {
+        "Blimp": "None", 
+        "Kylakin": "HS Top, Airship",
+        "Frosted Perch": "Scav Event, Nomads-Scav Camp",
+        "Jelmiry": "None"
+    },
+    "3": {
+        "Blimp": "Nomads (West), Hulthine South",
+        "Kylakin": "None",
+        "Frosted Perch": "Airship, HS Top",
+        "Jelmiry": "None"
+    },
+    "4": {
+        "Blimp": "HS Bottom, Wagon Grave",
+        "Kylakin": "Wastelands Tree, Rainforest Mini, Hulthine North",
+        "Frosted Perch": "None",
+        "Jelmiry": "Flying High, Cut Throat River, Nomads (West)"
+    }
+}

@@ -1,0 +1,6 @@
+auth.json 
+.env
+node_modules/*
+node_modules*
+*lock*
+.DS_Store

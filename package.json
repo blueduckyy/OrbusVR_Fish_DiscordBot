@@ -1,0 +1,13 @@
+{
+	"name": "orbus-fish",
+	"version": "1.0.0",
+	"description": "Provide fishing information",
+	"main": "bot.js",
+	"author": "blueduckyy",
+	"dependencies": {
+		"discord.io": "^2.5.3",
+		"discord.js": "^12.5.1",
+		"dotenv": "^8.2.0",
+		"winston": "^3.3.3"
+	}
+}
