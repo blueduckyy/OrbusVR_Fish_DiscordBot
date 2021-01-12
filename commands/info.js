@@ -13,6 +13,7 @@ module.exports = {
                 { name: '!current', value: 'Shows where current legendary fish are' },
                 { name: '!fish', value: 'Provide you conditions/ lures needed for this fish.'},
                 { name: '!location', value: 'A map showing the locations labeled. Note: Takes a minute to load.'},
+                { name: '!resources', value: 'Basically a link to PK Illusion on how to fish.'}
             )
             .setTimestamp()
 
