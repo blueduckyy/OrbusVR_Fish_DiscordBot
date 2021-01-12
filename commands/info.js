@@ -12,7 +12,7 @@ module.exports = {
                 { name: '!info', value: 'Pulls up this page' },
                 { name: '!current', value: 'Shows where current legendary fish are' },
                 { name: '!fish', value: 'Provide you conditions/ lures needed for this fish.'},
-                { name: '!location', value: 'A map showing the locations labeled.'},
+                { name: '!location', value: 'A map showing the locations labeled. Note: Takes a minute to load.'},
             )
             .setTimestamp()
 
