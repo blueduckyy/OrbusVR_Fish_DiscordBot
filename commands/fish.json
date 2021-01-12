@@ -1,0 +1,114 @@
+{
+    "axolotl": {
+        "location": "All of Hulthines",
+        "lure": "Small Tooth*, Feathers, Rotten Finger", 
+        "weather": "N/A",
+        "requirements": "N/A",
+        "legendary": "false"
+    },
+    "bass": {
+        "location": "Highsteppe Lower, Flooded Rainforest Nomads Hut",
+        "lure":  "Small Tooth*, Small Tongue, Rotten Finger", 
+        "weather": "N/A",
+        "requirements": "N/A",
+        "legendary": "false"
+    },
+    "blimp": {
+        "location": "Check Current",
+        "lure": "Small Tooth*, Feathers, Rotten Finger", 
+        "weather": "No Rain",
+        "requirements": "No Flounder",
+        "legendary": "true"
+    }, 
+    "catfish": {
+        "location": "All of Highsteppe, ",
+        "lure": "Small Tooth*, Feathers, Rotten Finger", 
+        "weather": "N/A",
+        "requirements": "N/A",
+        "legendary": "false"
+    }, 
+    "cloak": {
+        "location": "Wastelands Western Pond (Tree)",
+        "lure": "Lesser Eye*, Feathers, Rotten Finger", 
+        "weather": "N/A",
+        "requirements": "N/A",
+        "legendary": "false"
+    }, 
+    "flounder": {
+        "location": "Check Current",
+        "lure": "Bloody Flesh*, Eyeworm*, Shiny Metal*", 
+        "weather": "Clear Sky",
+        "requirements": "None",
+        "legendary": "true"
+    }, 
+    "jelmiry": {
+        "location": "Check Current",
+        "lure": "Snake Bits*, Fat Fly*, Shiny Metal*", 
+        "weather": "Rain",
+        "requirements": "N/A",
+        "legendary": "true"
+    }, 
+    "kylakin": {
+        "location": "Check Current",
+        "lure": "Bloody Flesh*, Eyeworm*, Snake Bits*", 
+        "weather": "No Rain",
+        "requirements": "No Flounder",
+        "legendary": "true"
+    }, 
+    "minnow": {
+        "location": "Lower Highsteppe, North of Hulthines Basin",
+        "lure": "Small Tooth*, Small Tongue, Rotten Finger", 
+        "weather": "N/A",
+        "requirements": "N/A",
+        "legendary": "false"
+    }, 
+    "phoenix": {
+        "location": "Wagon Graveyard, Flooded Rainforest",
+        "lure": "Shiny Metal*, Rotten Finger", 
+        "weather": "N/A",
+        "requirements": "N/A",
+        "legendary": "false"
+    }, 
+    "perch": {
+        "location": "Check Current",
+        "lure": "Bloody Flesh*, Blue Scales*, Rotten Finger", 
+        "weather": "Rain",
+        "requirements": "None",
+        "legendary": "true"
+    }, 
+    "ridgeback": {
+        "location": "Wastelands Scav Event",
+        "lure": "Large Minnow*, Rotten Finger", 
+        "weather": "N/A",
+        "requirements": "N/A",
+        "legendary": "false"
+    },
+    "saddled lion eel": {
+        "location": "Nomads Hut, Flooded Rainforest",
+        "lure": "Blue Scales*, Feathers, Rotten Finger", 
+        "weather": "N/A",
+        "requirements": "N/A",
+        "legendary": "false"
+    },
+    "shark": {
+        "location": "All of Hulthines Basin",
+        "lure": "Eyeworm*, Rotten Figner", 
+        "weather": "N/A",
+        "requirements": "N/A",
+        "legendary": "false"
+    }, 
+    "snail": {
+        "location": "North Side of Hulthines Basin",
+        "lure": "Blue Scales*, Lesser Eye, Rotten Finger", 
+        "weather": "N/A",
+        "requirements": "N/A",
+        "legendary": "false"
+    },
+    "sunfish": {
+        "location": "All of Highsteppe",
+        "lure": "Lesser Eye, Small Tongue, Rotten Finger", 
+        "weather": "N/A",
+        "requirements": "N/A",
+        "legendary": "false"
+    }
+}

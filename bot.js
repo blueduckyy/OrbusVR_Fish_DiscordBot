@@ -14,9 +14,7 @@ for (const file of commandFiles) {
 	client.commands.set(command.name, command);
 }
 
-const timeframes = [5,10,15,20];
 
-const fish = ["Blimp", "Kylakin", "Frosted Perch", "Jelmiry"];
 
 client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag}!`);

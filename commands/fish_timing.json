@@ -1,0 +1,32 @@
+{
+    "0": {
+        "blimp": "None",
+        "kylakin": "None",
+        "perch": "Left Eye (WL), Hulthines North (HB), Mini (RF)",
+        "jelmiry": "None"
+    },
+    "1": {
+        "blimp": "Nomads-Scav Camp (RF), Right Eye (WL)",
+        "lylakin": "None",
+        "perch": "None",
+        "jelmiry": "HS Bottom (HS), Wagon Grave (RF)"
+    },
+    "2": {
+        "blimp": "None", 
+        "kylakin": "HS Top (HS), Right Smile (WL)",
+        "perch": "Right Eye (WL), Nomads-Scav Camp (RF)",
+        "jelmiry": "None"
+    },
+    "3": {
+        "blimp": "Nomads West (RF), Hulthine South (HB)",
+        "kylakin": "None",
+        "perch": "Right Smile (WL), HS Top (HS)",
+        "jelmiry": "None"
+    },
+    "4": {
+        "blimp": "HS Bottom (HS), Wagon Grave (RF)",
+        "kylakin": "Left Eye (WL), Mini (RF), Hulthine North (HB)",
+        "perch": "None",
+        "jelmiry": "Hulthine South (HB), Smile Left (WL), Nomads West (RF)"
+    }
+}
