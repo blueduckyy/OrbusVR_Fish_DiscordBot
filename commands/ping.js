@@ -2,26 +2,12 @@ const Discord = require('discord.js');
 
 module.exports = {
     name: 'ping',
-    description: 'Ping!',
+    description: 'Ping Pong!',
     execute(message, args) {
         const exampleEmbed = new Discord.MessageEmbed()
             .setColor('#0099ff')
-            .setTitle('Some title')
-            .setURL('https://discord.js.org/')
-            .setAuthor('Some name', 'https://i.imgur.com/wSTFkRM.png', 'https://discord.js.org')
-            .setDescription('Some description here')
-            .setThumbnail('https://i.imgur.com/wSTFkRM.png')
-            .addFields(
-                { name: 'Regular field title', value: 'Some value here' },
-                { name: '\u200B', value: '\u200B' },
-                { name: 'Inline field title', value: 'Some value here', inline: true },
-                { name: 'Inline field title', value: 'Some value here', inline: true },
-            )
-            .addField('Inline field title', 'Some value here', true)
-            .setImage('https://i.imgur.com/wSTFkRM.png')
-            .setTimestamp()
-            .setFooter('Some footer text here', 'https://i.imgur.com/wSTFkRM.png');
-
+            .setTitle('Pong')
+            .setImage('https://media1.giphy.com/media/pa5IBbv5LheEg/giphy.gif?cid=ecf05e47gi3l86xx6znrmka5ruw01j36xebz640lx5ew4k4t&rid=giphy.gif')
             message.channel.send(exampleEmbed);
     },
 }
