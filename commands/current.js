@@ -49,7 +49,8 @@ function printFishInfo(fishArgs) {
         var retMessage = "Location: " + curLoc[curFish] + " \n";
         retMessage += "Weather Needs: " + fishData[curFish]['weather'] + " \n";
         retMessage += "Other Reqs: " + fishData[curFish]['requirements'] + " \n";
-        allfish.addField(curFish, curLoc[curFish]);
+        retMessage += "Lure: " + fishData[curFish]['lure'] + " \n";
+        allfish.addField(curFish, retMessage);
     }
     return allfish;
 }
