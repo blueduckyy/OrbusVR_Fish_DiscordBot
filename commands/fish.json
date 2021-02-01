@@ -15,7 +15,7 @@
     },
     "blimp": {
         "location": "Check Current",
-        "lure": "Small Tooth*, Feathers, Rotten Finger", 
+        "lure": "Shiny Metal*, Large Minnow, Rotten Finger", 
         "weather": "No Rain",
         "requirements": "No Flounder",
         "legendary": "true"
@@ -34,6 +34,13 @@
         "requirements": "N/A",
         "legendary": "false"
     }, 
+    "clown": {
+        "location": "Rainforest NorthWest",
+        "lure": "Bloody Flesh*, Rotten Finger", 
+        "weather": "N/A",
+        "requirements": "N/A",
+        "legendary": "false"
+    },
     "flounder": {
         "location": "Check Current",
         "lure": "Bloody Flesh*, Eyeworm*, Shiny Metal*", 

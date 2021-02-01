@@ -1,9 +1,10 @@
 const timeframes = [5,10,15,20];
 
-const fish = ["blimp", "kylakin", "perch", "jelmiry"];
+const fish = ["blimp", "kylakin", "perch", "jelmiry", "flounder"];
 
 const Discord = require('discord.js');
 const fishData = require('./fish.json');
+const flounderData = require('./flounder.json');
 
 
 
@@ -30,6 +31,33 @@ function getFishTime() {
     return {fishperiod, timeremaining};
 }
 
+function getFlounderLoc(fishTime) {
+    const startDate = new Date('1/18/21')
+    const today = new Date().toISOString().split('T');
+    const todayUTC = new Date(today[0]);
+    const todayTime = today[1].substring(0,5);
+    const diffTime = Math.abs(todayUTC - startDate);
+    const diffDays = Math.ceil(diffTime/ (1000 *60 *60 * 24));
+    
+    const curFlounderDay = diffDays % 5;
+    var curFlounderInfo = flounderData[curFlounderDay];
+    var flounderLoc = "";
+    for( item in curFlounderInfo) {
+        var curItem = curFlounderInfo[item];
+        if (curItem['start'] <= todayTime && todayTime < curItem["end"]) {
+            flounderLoc += curItem["location"] + " \n";
+            flounderLoc += "Flounder will change at the following UTC time: " + curItem["end"] + " \n";
+            flounderLoc += "Current UTC time is: " + todayTime;
+            break;
+        }
+    }
+    console.log(flounderLoc);
+    if (flounderLoc === "") {
+        flounderLoc = "None";
+    }
+    return (flounderLoc);
+}
+
 function printFishInfo(fishArgs) {
     const data = require('./fish_timing.json');
     let timeremaining = fishArgs.timeremaining;
@@ -39,14 +67,18 @@ function printFishInfo(fishArgs) {
     const allfish = new Discord.MessageEmbed()
             .setColor('#0099ff')
             .setTitle('Current Fish')
-            .setDescription('This will provide you a look at the fish that are currently available. Flounder is not currently implemented. \n Fish will change within the next ' + timeremaining + ' hour(s). (If 0 that means they just changed. Fish also change on the hour.)')
+            .setDescription('This will provide you a look at the fish that are currently available. \n Fish will change within the next ' + timeremaining + ' hour(s). (If 0 that means they just changed. Fish also change on the hour.) \n Flounder changes more frequently and can be seen below.')
             .setTimestamp();
     
     for(i=0; i < fish.length; i++) {
         var curFish = fish[i];
-        var curLoc = data[fishTime];
-        console.log(curLoc[curFish]);
-        var retMessage = "Location: " + curLoc[curFish] + " \n";
+        var curLoc;
+        if (curFish === "flounder") {
+            curLoc = getFlounderLoc();
+        } else {
+            curLoc = data[fishTime][curFish];
+        }
+        var retMessage = "Location: " + curLoc + " \n";
         retMessage += "Weather Needs: " + fishData[curFish]['weather'] + " \n";
         retMessage += "Other Reqs: " + fishData[curFish]['requirements'] + " \n";
         retMessage += "Lure: " + fishData[curFish]['lure'] + " \n";
