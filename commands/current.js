@@ -82,6 +82,7 @@ function printFishInfo(fishArgs) {
         retMessage += "Weather Needs: " + fishData[curFish]['weather'] + " \n";
         retMessage += "Other Reqs: " + fishData[curFish]['requirements'] + " \n";
         retMessage += "Lure: " + fishData[curFish]['lure'] + " \n";
+        retMessage += "Cross Catch: " + fishData[curFish]['crosscatch'] + "\n";
         allfish.addField(curFish, retMessage);
     }
     return allfish;

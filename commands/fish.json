@@ -11,7 +11,8 @@
         "lure":  "Small Tooth*, Small Tongue, Rotten Finger", 
         "weather": "N/A",
         "requirements": "N/A",
-        "legendary": "false"
+        "legendary": "false",
+        "blimp": "HS Bottom, Wagon Grave, WL Right Eye"
     },
     "blimp": {
         "location": "Check Current",
@@ -46,21 +47,24 @@
         "lure": "Bloody Flesh*, Eyeworm*, Shiny Metal*", 
         "weather": "Clear Sky",
         "requirements": "None",
-        "legendary": "true"
+        "legendary": "true",
+        "crosscatch": "Nomad Scav Camp, Nomads West"
     }, 
     "jelmiry": {
         "location": "Check Current",
         "lure": "Snake Bits*, Fat Fly*, Shiny Metal*", 
         "weather": "Rain",
         "requirements": "N/A",
-        "legendary": "true"
+        "legendary": "true",
+        "crosscatch": "Wagon Grave"
     }, 
     "kylakin": {
         "location": "Check Current",
         "lure": "Bloody Flesh*, Eyeworm*, Snake Bits*", 
         "weather": "No Rain",
         "requirements": "No Flounder",
-        "legendary": "true"
+        "legendary": "true",
+        "crosscatch": "RF Mini, Hulthines North"
     }, 
     "minnow": {
         "location": "Lower Highsteppe, North of Hulthines Basin",
@@ -71,7 +75,7 @@
     }, 
     "phoenix": {
         "location": "Wagon Graveyard, Flooded Rainforest",
-        "lure": "Shiny Metal*, Rotten Finger", 
+        "lure": "Shiny Metal*, Rotten Finger, Feathers",
         "weather": "N/A",
         "requirements": "N/A",
         "legendary": "false"
@@ -81,7 +85,8 @@
         "lure": "Bloody Flesh*, Blue Scales*, Rotten Finger", 
         "weather": "Rain",
         "requirements": "None",
-        "legendary": "true"
+        "legendary": "true",
+        "crosscatch": "Nomads Scav Camp, RF Mini,"
     }, 
     "ridgeback": {
         "location": "Wastelands Scav Event",
