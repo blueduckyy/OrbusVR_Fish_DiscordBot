@@ -12,14 +12,15 @@
         "weather": "N/A",
         "requirements": "N/A",
         "legendary": "false",
-        "blimp": "HS Bottom, Wagon Grave, WL Right Eye"
     },
     "blimp": {
         "location": "Check Current",
         "lure": "Shiny Metal*, Large Minnow, Rotten Finger", 
         "weather": "No Rain",
         "requirements": "No Flounder",
-        "legendary": "true"
+        "legendary": "true",
+        "crosscatch": "HS Bottom, Wagon Grave, WL Right Eye"
+
     }, 
     "catfish": {
         "location": "All of Highsteppe, ",
