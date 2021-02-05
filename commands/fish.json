@@ -11,7 +11,7 @@
         "lure":  "Small Tooth*, Small Tongue, Rotten Finger", 
         "weather": "N/A",
         "requirements": "N/A",
-        "legendary": "false",
+        "legendary": "false"
     },
     "blimp": {
         "location": "Check Current",
