@@ -3,10 +3,18 @@ var fs = require('fs');
 var path = require('path');
 var hspresspics = [];
 
-function getLancePic() {
-    const image = fs.readFileSync(path.join(__dirname, '/hspress/final1.png'));
-    return image;
+
+fs.readFile('./commands/hspresspics.txt', function(err, data) {
+    if(err) throw err;
+    hspresspics = data.toString().split("\n");
+});
+
+
+function getPressPic() {
+    var curValue = curValue = Math.floor(Math.random()*hspresspics.length);
+    return hspresspics[curValue];
 }
+
 
 module.exports = {
     name: 'hspress',
@@ -15,7 +23,7 @@ module.exports = {
         const exampleEmbed = new Discord.MessageEmbed()
             .setColor('#FD7AAC')
             .setTitle('Highsteppe Press Archives')
-            .setImage(getLancePic())
+            .setImage(getPressPic())
             .setTimestamp()
 
         message.channel.send(exampleEmbed);

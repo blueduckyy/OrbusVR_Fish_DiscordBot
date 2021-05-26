@@ -23,7 +23,7 @@
         }, {
             "start": "15:00",
 			"end": "16:15",
-			"location": "Nomad West (RF)"
+			"location": "Nomad West (RF) & Hulthine South (HB)"
         }, {
             "start": "18:45",
 			"end": "20:00",
@@ -62,7 +62,7 @@
         }, {
             "start": "16:00",
 			"end": "17:15",
-			"location": "Nomad West (RF)"
+			"location": "Nomad West (RF)  & Hulthine South (HB)"
         }, {
             "start": "19:45",
 			"end": "20:00",
@@ -101,7 +101,7 @@
         }, {
             "start": "17:00",
 			"end": "18:15",
-			"location": "Nomad West (RF)"
+			"location": "Nomad West (RF)  & Hulthine South (HB)"
         }, {
             "start": "15:45",
 			"end": "17:00",
@@ -140,7 +140,7 @@
         }, {
             "start": "18:00",
 			"end": "19:15",
-			"location": "Nomad West (RF)"
+			"location": "Nomad West (RF)  & Hulthine South (HB)"
         }, {
             "start": "16:45",
 			"end": "18:00",
@@ -179,7 +179,7 @@
         }, {
             "start": "19:00",
 			"end": "20:00",
-			"location": "Nomad West (RF)"
+			"location": "Nomad West (RF) & Hulthine South (HB)"
         }, {
             "start": "17:45",
 			"end": "19:00",
